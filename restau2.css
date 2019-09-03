@@ -1,0 +1,273 @@
+body {
+    background:#f8f7f2;
+    font-family: "Indie Flower";
+    
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', cursive, sans-serif;
+
+}
+
+
+
+.container-fluid {
+    padding: 0;
+   
+
+}
+
+.book h2 {
+    padding-top: 7%
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+.Header {
+    
+    height: 70px;
+    line-height: 65px;
+    font-size: 34px;
+}
+
+.logo {
+
+    height: 112px;
+    width: 112px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    font-size: 0.7em;
+}
+
+.menu a {
+    color: black;
+    margin-right: 10px;
+}
+
+.buttons {
+    border: none;
+    display: none;
+}
+
+
+.dropbtn {
+    background:#f8f7f2;;
+    color: black;
+    font-size: 1.1em;
+    margin-right: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    width: 114px;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    width:200px;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+
+
+.btn-group {
+    border: none;
+    background: white;
+}
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    width: 0;
+    text-align: center;
+    
+}
+
+.inner-banner h1 {
+    color: black;
+    top: 10%;
+    width: 42%;
+    font-size: 1.2em;
+    font-weight: bolder;
+
+}
+
+.inner-banner .btn-custom {
+    background-color: rgb(168, 61, 61);
+    color: white;
+    font-size: 2em;
+}
+
+.inner-banner .btn-custom:hover {
+    color: yellow;
+}
+
+.portfolio {
+    display: flex;
+}
+
+
+.img3 {
+    width: 420px;
+    height: 320px;
+    padding: 20px;
+}
+
+#about {
+    padding-top: 5%;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: 2.7em;
+
+
+}
+
+.about p {
+    padding-bottom: 15%;
+    font-size: 1.4em;
+}
+
+.separator {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.separator:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+#book {
+    text-align: center;
+}
+
+.book .container .item-book {
+    height: 280px;
+    background-color: aquamarine;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.section {
+    padding-top: 14px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input [type=text] {
+    height: 50px;
+    width: 600px;
+    border: none;
+}
+
+input [type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+
+.btn-primary {
+    background: #ff5a5f;
+    color: white;
+
+}
+
+.section-description {
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Indie Flower";
+    src: "font/raleway.ttf"
+}

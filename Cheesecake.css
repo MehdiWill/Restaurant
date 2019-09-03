@@ -1,0 +1,81 @@
+
+body {
+    font-family: "Indie Flower";
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/1015395055/thumb/1.jpg"),
+    url("file:///home/stark/Documents/projets/restau/NY.html");
+}
+
+img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 5%;
+}
+
+.cadre {}
+
+h1 {
+    color: black;
+    top: 10%;
+    
+    font-size: 4.8em;
+    font-weight: bolder;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size:3em;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 3.2em;
+    color:black;
+}
+
+p {
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+}
+
+.separator {
+
+    overflow: visible;
+    padding: 22px;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+
+
+}
+
+
+.separator:after {
+    
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+@font-face {
+    font-family: "Indie Flower";
+    src: "font/raleway.ttf"
+}

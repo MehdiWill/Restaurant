@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./restau2.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="container-fluid Header">
+        <div class="container">
+
+            <div class="inner-banner">
+                <img class="logo" src="./imagelog/logo.jpg">
+                 
+                <h1>Cheesecakes.be</h1>
+                
+            </div>
+            <nav class="menu">
+
+                    <div class="dropdown">
+                            <button class="dropbtn">Menu</button>
+                            <div class="dropdown-content">
+                            <a href="./NY.html">NY Cheesecake</a>
+                            <a href="#">Marechal Pralin</a>
+                            <a href="#">Elizabeth Raspebrry</a>
+                            </div>
+                          </div>
+                
+                <a href="#about">about</a>
+                <a href="#book">book</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section class="container-fluid banner">
+        <div class="ban">
+            <img src="./image/background5.jpg" />
+        </div>
+
+    </section>
+
+    <section class="container-fluid about">
+        <div class="container">
+            <div class="row">
+                <hr class="separator">
+                <h2 id="about">Nos Convictions</h2>
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Naturel</h2>
+                    <p>Nos cheesecakes sont réaliser avec des produits issus de l'agriculture biologique.Nous utilisons
+                        de la macquée Liégoise en guise de fromage blanc.</p>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Savoir-faire</h2>
+                    <p>Nos produits sont réaliser a la main et cuit a basse température afin de ne pas fragiliser le
+                        produit.</p>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Gourmandise</h2>
+                    <p>Tout les Cheesecakes sont personnalisable.Vous craquez sur le maréchale Pralin mais vous désirez
+                        un topping caramel par dessus, comme je vous comprend. Pourquoi ne pas le précisez lors de la
+                        commande? </p>
+                </div>
+            </div>
+            <hr class="separator">
+        </div>
+       
+    </section>
+
+    <main>
+         
+        <h2 id="book"> </h2>
+     
+        <div id="carousel">
+                
+            <div class="hideLeft">
+                <img src="./image/caramel.jpg">
+            </div>
+
+            <div class="prevLeftSecond">
+                <img src="./image/cheeseban.jpg">
+            </div>
+
+            <div class="prev">
+                <img src="./image/cheesechoc.jpg">
+            </div>
+
+            <div class="selected">
+                <img src="./image/background.jpg">
+            </div>
+
+            <div class="next">
+                <img src="./image/background2.jpg">
+            </div>
+
+            <div class="nextRightSecond">
+                <img src="./image/background3.jpg">
+            </div>
+
+            <div class="hideRight">
+                <img src="./image/background4.jpg">
+            </div>
+           
+        </div>
+    
+        <div class="buttons">
+            <button id="prev"></button>
+            <button id="next"></button>
+        </div>
+    
+    </main>
+
+
+
+    <footer class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <hr class="separator">
+                <h2 id="contact">A vos gourmandises, pret ? </h2>
+            </div>
+        </div>
+        <section class="section">
+
+
+            <h2 class="section-heading h1 pt-4">Commander</h2>
+
+            <p class="section-description">Vous désirez commandez pour une date précise ?</p>
+
+            <div class="row">
+
+
+                <div class="col-md-8 col-xl-9">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                    <div class="center-on-small-only">
+                        <a class="btn btn-primary"
+                            onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+
+
+                <div class="col-md-4 col-xl-3">
+                    <ul class="contact-icons">
+                        <li><i class="fa fa-map-marker fa-2x"></i>
+                            <p>Belgique, Bruxelle capital</p>
+                        </li>
+
+                        <li><i class="fa fa-phone fa-2x"></i>
+                            <p>+ 01 234 567 89</p>
+                        </li>
+
+                        <li><i class="fa fa-envelope fa-2x"></i>
+                            <p>contact@cheesecakes.be</p>
+                        </li>
+                    </ul>
+                </div>
+                
+
+            </div>
+
+
+
+            </div>
+
+            
+
+    </footer>
+
+    
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
