@@ -1,14 +1,13 @@
-
 body {
     font-family: "Indie Flower";
-    
+
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 img {
@@ -22,20 +21,20 @@ img {
 h1 {
     color: black;
     top: 10%;
-    
+
     font-size: 4.8em;
     font-weight: bolder;
 }
 
 h2 {
     text-decoration: underline;
-    font-size:3em;
+    font-size: 3em;
 }
 
 h3 {
     text-decoration: underline;
     font-size: 3.2em;
-    color:black;
+    color: black;
 }
 
 p {
@@ -49,10 +48,10 @@ p {
     align-items: center;
     color: black;
     background-image: url("https://ak0.picdn.net/shutterstock/videos/9565310/thumb/1.jpg"),
-    url("file:///home/stark/Documents/projets/restau/NY.html");
+        url("file:///home/stark/Documents/projets/restau/NY.html");
     background-repeat: no-repeat;
     background-position: left;
-    
+
 }
 
 h1 {
@@ -63,9 +62,9 @@ p {
     margin: 0 auto;
 }
 
-.finish{
+.finish {
     background-image: url("https://ak3.picdn.net/shutterstock/videos/9565343/thumb/9.jpg"),
-    url("file:///home/stark/Documents/projets/restau/NY.html");
+        url("file:///home/stark/Documents/projets/restau/NY.html");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -84,7 +83,7 @@ p {
 
 
 .separator:after {
-    
+
     display: inline-block;
     position: relative;
     top: -0.7em;
