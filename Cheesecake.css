@@ -16,7 +16,28 @@ img {
     margin-bottom: 5%;
 }
 
-.cadre {}
+.cadre {
+    margin-bottom:2%;    
+}
+
+.card {
+    border:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+}
+
+.card-body {
+    margin-top: 2%;
+    border: none;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+}
 
 h1 {
     color: black;
@@ -47,6 +68,7 @@ p {
     flex-direction: column;
     align-items: center;
     color: black;
+    margin: 5% 0 3% 0;
 }
 
 h1 {
@@ -65,7 +87,10 @@ p {
 }
 
 .separator {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
     overflow: visible;
     padding: 22px;
     border: none;
@@ -86,6 +111,35 @@ p {
     padding: 0 0.25em;
     background: white;
 }
+
+
+
+.btn {
+    height: 42px;
+    background: white;
+    font-size: 2.7em;
+    color: rgba(173, 14, 14, 0.979);
+    font-weight: bolder;
+    border: none;
+}
+
+.align {
+    display: flex;
+    float: left;
+}
+
+a {
+    float: center;
+
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
 
 @font-face {
     font-family: "Indie Flower";
